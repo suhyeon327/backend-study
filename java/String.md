@@ -23,3 +23,30 @@ str.substring(1, 3);
 ```java
 str.contains("abc");
 ```
+
+## 문자열 치환
+
+```java
+String str = "Java Java";
+str.replace("Java", "Spring");
+
+// Spring Spring
+```
+
+```java
+str.replaceAll("[aeiou]", "");
+
+// ppl
+```
+
+```java
+String str = "Java Java";
+str.replaceFirst("Java", "Spring");
+
+// Spring Java
+```
+
+차이점
+- replace(): 문자열 그대로 비교하여 치환
+- replaceAll(): 정규표현식 사용 가능
+- replaceFirst(): 첫 번째 일치 항목만 치환
