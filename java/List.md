@@ -37,3 +37,19 @@ String[] data = {"A", "B", "C"};
 
 ArrayList<String> list = new ArrayList<>(Arrays.asList(data));
 ```
+
+## 구분자로 문자열 연결
+
+```java
+ArrayList<String> list = new ArrayList<>(Arrays.asList("138", "129", "142"));
+String result = String.join(",", list);
+```
+
+## 정렬
+
+```java
+import java.util.Comparator;
+
+list.sort(Comparator.naturalOrder());   // 오름차순
+list.sort(Comparator.reverseOrder());   // 내림차순
+```
