@@ -1,5 +1,7 @@
 # Map
 
+## 생성
+
 ```java
 HashMap<String, String> map = new HashMap<>();
 ```
