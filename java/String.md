@@ -50,3 +50,9 @@ str.replaceFirst("Java", "Spring");
 - replace(): 문자열 그대로 비교하여 치환
 - replaceAll(): 정규표현식 사용 가능
 - replaceFirst(): 첫 번째 일치 항목만 치환
+
+## 특정 문자열이 시작되는 위치(인덱스값)
+
+```java
+str.indexOf("Java");
+```
