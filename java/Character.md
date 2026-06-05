@@ -27,5 +27,17 @@ Character.isUpperCase('A');
 ## 소문자인지 확인
 
 ```java
-Character.isLowerCase('a');
+Character.isLowerCase('A');
+```
+
+## 대문자로 변환
+
+```java
+Character.toUpperCase(c);
+```
+
+## 소문자로 변환
+
+```java
+Character.toLowerCase(c);
 ```
