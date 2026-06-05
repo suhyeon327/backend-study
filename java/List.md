@@ -29,3 +29,11 @@ list.size();
 ```java
 list.remove(0);
 ```
+
+## 배열 -> List 변환
+
+```java
+String[] data = {"A", "B", "C"};
+
+ArrayList<String> list = new ArrayList<>(Arrays.asList(data));
+```
