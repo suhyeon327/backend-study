@@ -56,3 +56,9 @@ str.replaceFirst("Java", "Spring");
 ```java
 str.indexOf("Java");
 ```
+
+## 반복
+
+```java
+str.repeat(반복횟수)
+```
