@@ -33,3 +33,9 @@ sb.reverse();
 ```java
 sb.toString();
 ```
+
+## 특정 문자 수정
+
+```java
+sb.setCharAt(인덱스, 새로운 문자);
+```
