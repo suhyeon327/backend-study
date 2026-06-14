@@ -39,3 +39,9 @@ Arrays.copyOfRange(원본 배열, 시작 인덱스, 끝 인덱스)
 ```java
 System.arraycopy(복사할 배열, 복사 시작 인덱스, 붙여넣을 배열, 붙여넣기 시작 인덱스, 길이)
 ```
+
+## 배열의 합
+
+```java
+Arrays.stream(arr).sum()
+```
