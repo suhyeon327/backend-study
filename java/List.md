@@ -38,6 +38,16 @@ String[] data = {"A", "B", "C"};
 ArrayList<String> list = new ArrayList<>(Arrays.asList(data));
 ```
 
+## List -> 배열 변환
+
+```java
+list.toArray(new String[0]);
+```
+
+```java
+String[] arr = list.toArray(new String[list.size()]);
+```
+
 ## 구분자로 문자열 연결
 
 ```java
