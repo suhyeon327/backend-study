@@ -62,3 +62,13 @@ str.indexOf("Java");
 ```java
 str.repeat(반복횟수)
 ```
+
+## 구분자로 나누기
+
+```java
+String[] arr = str.split(구분자, limit);
+```
+
+- limit > 0: 최대 limit개로 분할
+- limit = 0: 뒤의 빈 문자열 제거
+- limit < 0: 뒤의 빈 문자열 유지, 음수면 동일하게 동작하여 보통 -1를 씀
