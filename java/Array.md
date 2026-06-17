@@ -45,3 +45,10 @@ System.arraycopy(복사할 배열, 복사 시작 인덱스, 붙여넣을 배열,
 ```java
 Arrays.stream(arr).sum()
 ```
+
+## 배열의 곱
+
+```java
+Arrays.stream(num_list)
+      .reduce(1, (a, b) -> a * b);
+```
