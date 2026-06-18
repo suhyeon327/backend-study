@@ -15,3 +15,11 @@ IntStream.of(arr).sum();
 ```
 Arrays.stream(arr).sum();
 ```
+
+## 배열 합치기
+
+```java
+IntStream.concat(Arrays.stream(arr1),
+                 Arrays.stream(arr2))
+         .toArray();
+```
