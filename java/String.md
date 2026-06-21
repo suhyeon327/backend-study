@@ -54,7 +54,13 @@ str.replaceFirst("Java", "Spring");
 ## 특정 문자열이 시작되는 위치(인덱스값)
 
 ```java
-str.indexOf("Java");
+str.indexOf("문자열");
+```
+
+## 특정 문자열로 시작하는지 체크
+
+```java
+str.startsWith('문자열');
 ```
 
 ## 반복
