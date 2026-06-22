@@ -23,3 +23,11 @@ IntStream.concat(Arrays.stream(arr1),
                  Arrays.stream(arr2))
          .toArray();
 ```
+
+## List -> int[]
+
+```java
+answer.stream()
+      .mapToInt(Integer::intValue)
+      .toArray();
+```
