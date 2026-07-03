@@ -45,4 +45,17 @@ Java 어노테이션을 활용하여 빈 관리, 의존성 주입, 트랜잭션 
 - @RequestParam: GET 또는 POST 요청의 파라미터 값을 가져옴
 - @ExceptionHandler: 예외가 발생했을 때 특정 메서드에서 처리
 
+## Lombok 어노테이션
+- @Getter, @Setter : Java Bean 규약에 있는 setter, getter를 생성
+- @ToString : Object에 기본 구현된 ToString 대신 객체의 값 보여주는 ToString을 생성
+- @NoArgsConstructor: 인자가 없는 기본 생성자를 생성
+- @AllArgsConstructor:모든 프로퍼티를 인자로 갖는 생성자를 생성
+- @RequiredArgsConstructor : 필수 인자를 가진 생성자를 생성
+- @Data : @Getter/@Setter/@ToString/@EqualsAndHashCode/@RequiredArgsContructor을 포함
+- @Slf4j : 객체에 맞는 로그를 췹게 출력하는걸 도와줌
+- @UtilityClass : 유틸리티 성 클래스의 생성자를 private으로 만들어서 인스턴스가 생성되지 못하게 함
+
+### @NoArgsConstructor, @AllArgsConstructor, @RequiredArgsConstructor
+
+
 출처: https://itconquest.tistory.com/entry/Spring-Boot-Annotation-개념-이해하기 [개발자일지:티스토리]
