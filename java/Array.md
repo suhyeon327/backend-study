@@ -46,6 +46,11 @@ System.arraycopy(복사할 배열, 복사 시작 인덱스, 붙여넣을 배열,
 Arrays.stream(arr).sum()
 ```
 
+## 배열의 평균
+```java
+Arrays.stream(arr).average().orElse(0);
+```
+
 ## 배열의 곱
 
 ```java
