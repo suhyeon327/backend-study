@@ -48,6 +48,12 @@ list.toArray(new String[0]);
 String[] arr = list.toArray(new String[list.size()]);
 ```
 
+```java
+answer.stream()
+      .mapToInt(Integer::intValue)
+      .toArray();
+```
+
 ## 구분자로 문자열 연결
 
 ```java
