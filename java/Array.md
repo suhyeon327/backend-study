@@ -57,3 +57,8 @@ Arrays.stream(arr).average().orElse(0);
 Arrays.stream(num_list)
       .reduce(1, (a, b) -> a * b);
 ```
+
+## 배열 요소 필터링
+```java
+Arrays.stream(arr).filter(factor -> factor % divisor == 0).toArray();
+```
