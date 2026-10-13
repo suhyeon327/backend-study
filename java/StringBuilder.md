@@ -22,6 +22,11 @@ StringBuilder sb = new StringBuilder();
 sb.append("abc");
 ```
 
+## 문자열 길이
+```java
+sb.length()
+```
+
 ## 문자열 뒤집기
 
 ```java
