@@ -51,6 +51,7 @@ String[] arr = list.toArray(new String[list.size()]);
 ```java
 answer.stream()
       .mapToInt(Integer::intValue)
+      .sorted()
       .toArray();
 ```
 
