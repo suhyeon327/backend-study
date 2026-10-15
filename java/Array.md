@@ -58,6 +58,11 @@ Arrays.stream(num_list)
       .reduce(1, (a, b) -> a * b);
 ```
 
+## 배열의 최소값
+```java
+int min = Arrays.stream(arr).min().getAsInt();
+```
+
 ## 배열 요소 필터링
 ```java
 Arrays.stream(arr).filter(factor -> factor % divisor == 0).toArray();
