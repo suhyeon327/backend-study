@@ -31,3 +31,8 @@ answer.stream()
       .mapToInt(Integer::intValue)
       .toArray();
 ```
+
+## 배열 연산
+```java
+IntStream.range(0, a.length).map(index -> a[index] * b[index]).sum();
+```
