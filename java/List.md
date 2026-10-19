@@ -70,3 +70,8 @@ import java.util.Comparator;
 list.sort(Comparator.naturalOrder());   // 오름차순
 list.sort(Comparator.reverseOrder());   // 내림차순
 ```
+
+## 리스트의 모든 요소 삭제
+```java
+list.clear();
+```
