@@ -84,3 +84,8 @@ String[] arr = str.split(구분자, limit);
 ```java
 my_string.trim();
 ```
+
+## 문자열 일치 여부
+```java
+str.matches("[0-9]+")
+```
